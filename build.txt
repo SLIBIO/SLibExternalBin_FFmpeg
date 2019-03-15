@@ -1,0 +1,9 @@
+[macOS]
+- mp3lame
+	CFLAGS="-mmacosx-version-min=10.8" ./configure
+	make -j 8
+- kvazaar
+	CFLAGS="-mmacosx-version-min=10.8" ./configure
+	make -j 8
+- openh264
+	CFLAGS="-mmacosx-version-min=10.8" CXXFLAGS="-stdlib=libc++" make -j 8

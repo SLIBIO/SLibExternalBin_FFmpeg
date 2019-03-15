@@ -1,0 +1,5 @@
+FFmpeg 4.1.1
+
+lame 3.100
+openh264 1.8.0
+kvazaar 1.2.0
